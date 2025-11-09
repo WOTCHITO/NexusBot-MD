@@ -1,7 +1,7 @@
 {
-"name": "nexus-bot-MD",
-"version": "2.2.0",
-"description": "WhatsApp Bot Multi Device",
+"name": "nxus-Bot-MD",
+"version": "1.0.5",
+"description": "El Bot Más Explosivo De WhatsApp",
 "main": "index.js",
 "type": "module",
 "directories": {
@@ -13,25 +13,23 @@
 "start": "node index.js",
 "qr": "node index.js qr",
 "code": "node index.js code",
-"test": "node test.js",
-"test2": "nodemon index.js", 
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/Eliasivan/Goku-Black-Bot-MD",
+"homepage": "https://github.com/David-Chian/Megumin-Bot-MD",
 "author": {
-"name": "Eder"
+"name": "David-Chian"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Eliasivan/Goku-Black-Bot-MD.git"
+"url": "git+https://github.com/David-Chian/Megumin-Bot-MD.git"
 },
 "bugs": {
-"url": "https://github.com/Eliasivan/Goku-Black-Bot-MD/issues"
+"url": "https://github.com/David-Chian/Megumin-Bot-MD/issues"
 },
-"license": "License",
+"license": "GPL-3.0-or-later",
 "dependencies": {
-"@whiskeysockets/baileys": "npm:@baileys-md/stable",
+"@whiskeysockets/baileys": "github:gatanina-li/baileys",
 "@adiwajshing/keyed-db": "^0.2.4",
 "@bochilteam/scraper": "^4.2.4",
 "@bochilteam/scraper-sosmed": "^1.0.5",
@@ -44,9 +42,9 @@
 "axios": "^1.1.2",
 "acrcloud": "^1.4.0",
 "form-data": "^4.0.0",
+"cfonts": "^3.3.0",
 "boxen": "^7.1.1",
 "chalk": "^5.1.0",
-"cfonts": "^3.3.0",
 "url-file-size": "^1.0.5-1",
 "fluid-spotify.js": "*",
 "cheerio": "npm:cheerio@1.0.0-rc.12",
@@ -94,8 +92,7 @@
 "megajs": "^1.1.3",
 "mime-types": "^2.1.35",
 "api-dylux": "^1.7.2",
-"yargs": "^17.3.1", 
-"javascript-obfuscator": "^4.1.1"
+"yargs": "^17.3.1"
 },
 "optionalDependencies": {
 "wa-sticker-formatter": "^4.3.2",
